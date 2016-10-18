@@ -1,0 +1,75 @@
+body {
+  background-color: rgba(7, 51, 67, 1);
+}
+
+/*.main-data {
+  text-align: center;
+}*/
+
+#sidebarPic {
+  height: 500px;
+  style: relative;
+}
+
+.newUserPanel {
+  color: black;
+  display: none;
+}
+
+.swap, .charInfo, .allCharData, .weakSwapButtons {
+  display: none;
+}
+
+.charHeader {
+  color: yellow;
+}
+
+#loadout {
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+.pacLoad {
+  display:    none;
+  position:   fixed;
+  z-index:    1000;
+  top:        0;
+  left:       0;
+  height:     100%;
+  width:      100%;
+  background: rgba( 255, 255, 255, .8 )
+              url('images/fire-and-ice.gif')
+              50% 50%
+              no-repeat;
+}
+
+body.loading {
+  overflow: hidden;
+}
+
+body.loading .pacLoad {
+  display: block;
+}
+
+.newUserPanel {
+  position: relative;
+  top: -34.124px;
+}
+
+.selectCharacterCol {
+  background-color: white;
+  height: 1000px;
+  color: black;
+  text-align: justify;
+}
+
+.newUserCol {
+  background-color: black;
+  height: 1000px;
+  color: white;
+  text-align: justify;
+}
