@@ -1,1 +1,8 @@
-h1 character/edit page
+div class="container"
+  div class="col-sm-12 spellChoicesCol"
+    div class="panel panel-default allSpellChoices col-sm-12"
+      div class="panel-body weakChoice"
+        = radio_button_tag(:age, "child")
+        = label_tag(:age_child, "I am younger than 21")
+        = radio_button_tag(:age, "adult")
+        = label_tag(:age_adult, "I'm over 21")

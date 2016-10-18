@@ -42,7 +42,7 @@ ul {
   height:     100%;
   width:      100%;
   background: rgba( 255, 255, 255, .8 )
-              url('images/fire-and-ice.gif')
+              url('/app/assets/images/fire-and-ice.gif')
               50% 50%
               no-repeat;
 }

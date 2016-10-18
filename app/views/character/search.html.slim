@@ -2,30 +2,23 @@
 div class="container mainData"
   div class="row row-1"
     div class="container"
-      div class="col-xs-6 selectCharacterCol"
+      div class="col-sm-12 selectCharacterCol"
         div class="input-group"
           h2 class="black-text"Search Characters
           input type="text" class="form-control" autocomplete="off" id="userInput" placeholder="Enter Character Name..."
-          div class="panel panel-default allCharData"
+          div class="panel panel-default allCharData col-sm-12"
             div class="panel-heading charHeader"
               h2 class="panel-title charName"
             div class="panel-body charInfo"
               ul id="loadout pull-left"
                 h3 Weak Spell
-                div class="input-group swap"
-                  button type="submit" class="btn btn-primary weakSwapSubmit"Swap Weak
-
                 ul id="weak-spell" class="spell-ul"
                 h3 Standard Spell
-                div class="input-group swap"
-                  input type="text" class="form-control swap" id="standardSwap" placeholder="Swap Spell"
-
                 ul id="standard-spell" class="spell-ul"
                 h3 Strong Spell
-                div class="input-group swap"
-                  input type="text" class="form-control swap" id="strongSwap" placeholder="Swap Spell"
-
                 ul id="strong-spell" class="spell-ul"
+              div class="input-group swap"
+                button type="submit" class="btn btn-primary spellSwapBtn"Swap Spells
 
               fieldset class="form-group weakSwapButtons"
                 legend>Which Weak Spell
