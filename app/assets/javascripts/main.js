@@ -64,6 +64,7 @@ console.log('hi mom');
     window.location.href = '/character/edit';
     return false;
   });
+
   // $('.weakSwapSubmit').click(function() {
   //   $(".allCharData").fadeOut(4300);
   //   $(".swap").fadeOut(3000);
@@ -76,12 +77,12 @@ console.log('hi mom');
     $(".newUserInput").keyup(function(){
       $("#newUsername").val(this.value);
     });
-    $('#newUsername').focus()
+    $('#newUsername').focus();
   }
 
 // GET loadout for a character
   function getMyCharacter(searchString) {
-    console.log(searchString)
+    console.log(searchString);
     $.ajax({
       method: 'GET',
       url: 'search?search=' + encodeURIComponent(searchString),
@@ -177,4 +178,4 @@ console.log('hi mom');
       this.MagicElements(characterObject);
   }
 })();
-console.log('bye mom')
+console.log('bye mom');
